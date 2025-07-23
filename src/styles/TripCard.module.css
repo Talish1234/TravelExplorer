@@ -1,0 +1,57 @@
+.tripCard {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    text-decoration: none;
+    color: inherit;
+}
+
+.tripCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+.tripImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.tripInfo {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.tripDestination {
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #17826b;
+}
+
+.tripPrice {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 5px;
+}
+
+.perPerson {
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #6c757d;
+}
+
+.tripDuration,
+.tripRating {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+}

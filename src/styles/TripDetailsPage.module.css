@@ -1,0 +1,177 @@
+.tripDetailsPage {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.loadingPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 120px);
+    text-align: center;
+    color: #17826b;
+    font-size: 1.2rem;
+}
+
+.loadingSpinner {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 1s linear infinite;
+    margin-bottom: 15px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fadeIn {
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+.noTripFound {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #dc3545;
+    padding: 50px;
+    background-color: #ffeef0;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.tripContent {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    box-sizing: border-box;
+    opacity: 0;
+}
+.fadeIn .tripContent {
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+.tripTitle {
+    font-size: 2.8rem;
+    color: #17826b;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.tripRating {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 25px;
+}
+
+.imageGallery {
+    margin-bottom: 40px;
+}
+
+.tripOverview,
+.tripItinerary,
+.pricingSection {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+}
+
+.tripOverview h2,
+.tripItinerary h2,
+.pricingSection h2 {
+    font-size: 1.8rem;
+    color: #343a40;
+    margin-top: 0;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 10px;
+}
+
+.tripOverview p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.itineraryList {
+    list-style: none;
+    padding: 0;
+}
+
+.itineraryList li {
+    background-color: #eaf5ff;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-left: 5px solid #17826b;
+    border-radius: 5px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.bookNowButton {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.3rem;
+    background-color: #17826b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.bookNowButton:hover {
+    background-color: #1a6152;
+}
+
+@media (max-width: 768px) {
+    .tripContent {
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    .tripTitle {
+        font-size: 2.2rem;
+    }
+
+    .tripOverview h2,
+    .tripItinerary h2,
+    .pricingSection h2 {
+        font-size: 1.5rem;
+    }
+
+    .bookNowButton {
+        font-size: 1.1rem;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tripTitle {
+        font-size: 1.8rem;
+    }
+    .tripOverview p {
+        font-size: 0.95rem;
+    }
+    .itineraryList li {
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+}

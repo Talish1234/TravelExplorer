@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "destination": "Bali, Indonesia",
+    "price": "800",
+    "duration": "7 days",
+    "rating": "4.8",
+    "images": [
+      "https://images.pexels.com/photos/2166553/pexels-photo-2166553.jpeg",
+      "https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg",
+      "https://images.pexels.com/photos/1694621/pexels-photo-1694621.jpeg"
+    ],
+    "itinerary": [
+      "Day 1: Arrival in Bali and hotel check-in.",
+      "Day 2: Explore Uluwatu Temple, enjoy a Kecak fire dance.",
+      "Day 3: Snorkeling adventure at Nusa Dua, explore waterblow.",
+      "Day 4: Immerse in local culture with a market tour and cooking class.",
+      "Day 5-7: Relax at a luxurious beach resort in Seminyak or Ubud, with optional excursions."
+    ]
+  },
+  {
+    "id": 2,
+    "destination": "Kyoto, Japan",
+    "price": "1200",
+    "duration": "5 days",
+    "rating": "4.7",
+    "images": [
+      "https://images.pexels.com/photos/402028/pexels-photo-402028.jpeg",
+      "https://images.pexels.com/photos/1673978/pexels-photo-1673978.jpeg",
+      "https://images.pexels.com/photos/356629/pexels-photo-356629.jpeg"
+    ],
+    "itinerary": [
+      "Day 1: Arrival in Kyoto, check-in, and evening stroll through Gion district.",
+      "Day 2: Tour of Kinkaku-ji (Golden Pavilion) and Ryoan-ji Zen garden.",
+      "Day 3: Experience cherry blossom viewing (seasonal) at Maruyama Park, visit Kiyomizu-dera Temple.",
+      "Day 4: Indulge in a local food experience at Nishiki Market, participate in a traditional tea ceremony.",
+      "Day 5: Departure from Kyoto."
+    ]
+  },
+  {
+    "id": 3,
+    "destination": "Rome, Italy",
+    "price": "950",
+    "duration": "6 days",
+    "rating": "4.6",
+    "images": [
+      "https://images.pexels.com/photos/2064827/pexels-photo-2064827.jpeg",
+      "https://images.pexels.com/photos/2225442/pexels-photo-2225442.jpeg",
+      "https://images.pexels.com/photos/753639/pexels-photo-753639.jpeg"
+    ],
+    "itinerary": [
+      "Day 1: Arrive in Rome, explore the Spanish Steps and Trevi Fountain.",
+      "Day 2: Discover the Colosseum, Roman Forum, and Palatine Hill.",
+      "Day 3: Visit Vatican City: St. Peter's Basilica, Vatican Museums, and Sistine Chapel.",
+      "Day 4: Explore the Pantheon, Piazza Navona, and enjoy Roman gelato.",
+      "Day 5: Day trip to Pompeii and Mount Vesuvius (optional).",
+      "Day 6: Departure from Rome."
+    ]
+  },
+  {
+    "id": 4,
+    "destination": "Machu Picchu, Peru",
+    "price": "1500",
+    "duration": "8 days",
+    "rating": "4.9",
+    "images": [
+      "https://images.pexels.com/photos/2929906/pexels-photo-2929906.jpeg",
+      "https://images.pexels.com/photos/3879058/pexels-photo-3879058.jpeg",
+      "https://images.pexels.com/photos/16924394/pexels-photo-16924394.jpeg"
+    ],
+    "itinerary": [
+      "Day 1: Arrival in Cusco, acclimatization.",
+      "Day 2: Explore Cusco city and Sacred Valley.",
+      "Day 3: Begin Inca Trail (or train to Aguas Calientes).",
+      "Day 4: Full day exploring Machu Picchu.",
+      "Day 5: Return to Cusco.",
+      "Day 6-8: Optional activities or departure."
+    ]
+  },
+  {
+    "id": 5,
+    "destination": "Santorini, Greece",
+    "price": "1000",
+    "duration": "4 days",
+    "rating": "4.7",
+    "images": [
+      "https://images.pexels.com/photos/1010657/pexels-photo-1010657.jpeg",
+      "https://images.pexels.com/photos/1029021/pexels-photo-1029021.jpeg",
+      "https://images.pexels.com/photos/1518498/pexels-photo-1518498.jpeg"
+    ],
+    "itinerary": [
+      "Day 1: Arrive in Santorini, enjoy sunset in Oia.",
+      "Day 2: Explore Fira, hike to Skaros Rock.",
+      "Day 3: Catamaran cruise to volcanic islands and hot springs.",
+      "Day 4: Relax on black sand beaches, departure."
+    ]
+  }
+]
