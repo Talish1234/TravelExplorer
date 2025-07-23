@@ -19,16 +19,12 @@ This document provides simple steps to get the TravelExplorer application up and
 
     ```bash
     npm install
-    # OR
-    yarn install
     ```
 
 3.  **Start the application:**
 
     ```bash
-    npm start
-    # OR
-    yarn start
+    npm run dev
     ```
 
     This will open the app in your web browser, usually at `http://localhost:3000`.
