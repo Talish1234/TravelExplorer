@@ -27,7 +27,7 @@ This document provides simple steps to get the TravelExplorer application up and
     npm run dev
     ```
 
-    This will open the app in your web browser, usually at `http://localhost:3000`.
+    This will open the app in your web browser, usually at `http://localhost:5173`.
 
 ## 2. How it's Built (Our Approach)
 
