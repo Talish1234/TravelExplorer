@@ -9,6 +9,16 @@ import tripsData from "../data/trips.json";
 import styles from "../styles/HomePage.module.css";
 
 const HomePage = () => {
+  // useNavigate hook from react-router-dom is used to programmatically navigate to the search results page
+  // The featuredTrips state holds the trips to be displayed in the featured section
+  // useEffect is used to initialize the featured trips from the tripsData
+  // The handleSearch function constructs a query string based on the search input and navigates to
+  // the search results page with the appropriate query parameters
+  // The HomePage component renders a hero section with a background image, a title, a subtitle, and a search bar
+  // It also displays a section for featured destinations with a carousel and trip cards for each featured trip
+  // The Header and Footer components are included for consistent layout across the application
+  // The featured trips are sliced from the tripsData to show only a limited number of trips in the featured section
+
   const navigate = useNavigate();
   const [featuredTrips, setFeaturedTrips] = useState([]);
 
@@ -21,7 +31,6 @@ const HomePage = () => {
     if (destination) queryParams.append("destination", destination);
     navigate(`/search?${queryParams.toString()}`);
   };
-
   return (
     <div className={styles.homePage}>
       <Header />

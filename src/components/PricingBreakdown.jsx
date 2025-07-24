@@ -2,7 +2,7 @@ import styles from '../styles/PricingBreakdown.module.css';
 
 const PricingBreakdown = ({ basePrice, currency, taxes = 0, discounts = 0 }) => {
     const total = basePrice + taxes - discounts;
-
+    // The total price is calculated by adding the base price and taxes, then subtracting any discounts
     return (
         <div className={styles.pricingBreakdown}>
             <h3>Price Details</h3>

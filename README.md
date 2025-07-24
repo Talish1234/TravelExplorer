@@ -10,7 +10,7 @@ This document provides simple steps to get the TravelExplorer application up and
     Open your terminal or command prompt and run:
 
     ```bash
-    git clone [https://github.com/Talish1234/TravelExplorer.git](https://github.com/Talish1234/TravelExplorer.git)
+    git clone https://github.com/Talish1234/TravelExplorer.git
     cd TravelExplorer
     ```
 
@@ -38,6 +38,17 @@ TravelExplorer was developed with a focus on being easy to use and looking good 
 * **Local Data File:** All travel information is loaded directly from a local data file included with the application.
 
 * **User-Friendly Design:** We aimed for a clean layout and clear interactions to make your experience smooth.
+
+* **Development Workflow: Iterative and Focused:**
+Our development process followed an iterative approach, focusing on building features incrementally and ensuring stability at each stage. This included:
+
+    * **Requirement Analysis:** Clearly understanding the core functionalities and user needs for the travel exploration platform.
+
+    * **Component Design:** Planning the structure and interactions of individual React components before implementation.
+
+    * **Testing and Refinement:** Regularly testing features as they were developed and making necessary refinements to improve functionality and user experience.
+
+    * **Code Organization:** Maintaining a clear and logical file structure to enhance readability and maintainability of the codebase.
 
 This approach helped us create a flexible and user-friendly application.
 

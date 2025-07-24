@@ -9,6 +9,13 @@ import tripsData from "../data/trips.json";
 import styles from "../styles/SearchResultsPage.module.css";
 
 const SearchResultsPage = () => {
+  // useSearchParams hook from react-router-dom is used to access the query parameters in the URL
+  // The filteredTrips state holds the trips that match the search criteria
+  // The loading state indicates whether the trips are currently being filtered
+  // The filters state holds the current filter criteria, including destination, price range, and duration
+  // useEffect is used to filter the trips based on the current filters and search parameters
+  // The handleFilterChange function updates the filters state when the user changes any filter criteria
+  
   const [searchParams] = useSearchParams();
   const [filteredTrips, setFilteredTrips] = useState([]);
   const [loading, setLoading] = useState(true);

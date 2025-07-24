@@ -1,6 +1,10 @@
 import styles from '../styles/FilterSidebar.module.css';
 
 const FilterSidebar = ({ filters, onFilterChange }) => {
+    // Handler functions to update filters
+    // These functions will be called when the user interacts with the filter inputs
+    // They will call the onFilterChange prop with the updated filter values
+    
     const handleMinPriceChange = (e) => {
         onFilterChange({ minPrice: parseInt(e.target.value) });
     };

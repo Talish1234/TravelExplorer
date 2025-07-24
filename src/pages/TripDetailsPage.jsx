@@ -9,6 +9,17 @@ import tripsData from "../data/trips.json";
 import styles from "../styles/TripDetailsPage.module.css";
 
 const TripDetailsPage = () => {
+  // useParams hook from react-router-dom is used to access the trip ID from the URL
+  // The trip state holds the details of the selected trip
+  // The loading state indicates whether the trip details are currently being fetched
+  // useEffect is used to fetch the trip details based on the trip ID
+  // If the trip is not found, a message is displayed to the user
+  // The trip details include the destination, rating, images, description, itinerary, and pricing information
+  // The PricingBreakdown component is used to display the price details including base price, taxes, and discounts
+  // The trip ID is extracted from the URL parameters using useParams
+  // The component renders the trip details including title, rating, image gallery, overview, itinerary
+  // and pricing section with a "Book Now" button
+  
   const { id } = useParams();
   const [trip, setTrip] = useState(null);
   const [loading, setLoading] = useState(true);

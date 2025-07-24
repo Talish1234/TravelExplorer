@@ -6,12 +6,20 @@ const ImageCarousel = ({
   interval = 5000,
   animationDuration = 500,
 }) => {
+  // State variables to manage the current and previous image indices, animation state, and loading state
+  // `currentIndex` is the index of the currently displayed image
+  // `previousIndex` is the index of the image that is currently sliding out
+  // `isAnimating` indicates whether an animation is in progress
+  // `slideDirection` indicates the direction of the slide animation
+  // `isImageLoading` indicates whether the current image is still loading
+  
   const [currentIndex, setCurrentIndex] = useState(0);
   const [previousIndex, setPreviousIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
   const [slideDirection, setSlideDirection] = useState("");
   const [isImageLoading, setIsImageLoading] = useState(true);
 
+  // imageBeingLoadedRef is used to track the image currently being loaded
   const imageBeingLoadedRef = useRef(null);
   useEffect(() => {
     if (!images || images.length <= 1) return;
