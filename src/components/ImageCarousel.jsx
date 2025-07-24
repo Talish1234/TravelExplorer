@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import styles from "../styles/imageCarousel.module.css";
+import styles from "../styles/ImageCarousel.module.css"";
 
 const ImageCarousel = ({
   images,
